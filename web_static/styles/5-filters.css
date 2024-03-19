@@ -1,26 +1,41 @@
-.locations {
-    text-align: left;
+.locations, .amenities {
     height: 100%;
-    width: 25%;
-    float: left;
+    width: 25%;    
+}
+.locations {
     border-right: 1px solid #DDDDDD;
-
-    
+    display: grid;
+    place-content: center;
+    text-align: center;
 }
 .amenities {
-    text-align: left;
-    height: 100%;
-    width: 25%;
-    float: left;
+    margin-right: auto;
+    display: grid;
+    place-content: center;
+    text-align: center;
 }
 
 .locations h3, 
 .amenities h3 {
     font-weight: 600;
-    margin: 0px;
+    margin: 0;
+    padding: 0;
 }
 .locations h4, 
 .amenities h4 {
     font-weight: 400;
-    font-size: 14px;        
+    font-size: 14px;
+    margin: 0;
+    padding: 0;        
+} 
+
+footer {
+    background-color: white;
+    height: 60px;
+    width: 100%;    
+    position: fixed;
+    bottom: 0;
+    display: grid;
+    place-content: center;
+    border-top: 1px solid #CCCCCC;
 }
