@@ -3,6 +3,8 @@ header {
     height: 70px;
     width: 100%;
     border-bottom: 1px solid #CCCCCC;
+    display: flex;
+    align-items: center;
 }
 header a {
     width: 142px;
@@ -11,4 +13,5 @@ header a {
     background-image: url("../images/logo.png");
     background-repeat: no-repeat;
     background-position: center;
+    margin-left: 20px;
 }
